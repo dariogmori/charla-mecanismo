@@ -6,9 +6,7 @@ colorSchema: light
 
 favicon: /assets/pmclogo-transparent.png
 
-title: This is not the tech I signed up for!
-info: |
-  An approach to permacomputing
+title: Usando la permacomputación para envisionar futuribles
 
 class: text-center
 drawings:
@@ -17,12 +15,12 @@ transition: slide-left
 comark: true
 duration: 38min
 ---
-<div style="width: 70%; background: #3e3b66;">
+<div style="width: 70%; background: black;">
 	<h1>
-	This is not the tech I signed up for!
+	Usando la permacomputación para envisionar futuribles
 	</h1>
 	<h2>
-		An approach to permacomputing
+		Charla-taller? con Dario Gutierrez Mori
 	</h2>
 </div>
 <style>
@@ -52,76 +50,38 @@ transition: none
 image: /assets/about-me.png
 ---
 
-# a bit about me.
+# un poco sobre mi.
 
-Who am I?
+quien eres y que haces aquí?
 
-- I live in Asturias, Spain
-- I enjoy hiking and foraging mushrooms
-- I ferment fruits and vegetables
-- I make videogames sometimes
-- My job? Ask me later
+- Vivo en Gijón aunque nací en Santa Eulalia de Oscos
+- Me gusta ir de monte y recoger setas
+- Fermento frutas y verduras
+- A veces hago jueguitos (de video)
+- Estudié y trabajo como informático pero si pudiera no tocaría un ordenador en mi vida (por trabajo)
 
----
-layout: TitleCard
-transition: none
-level: 2
----
-Excuse this non-professional talk.
-
-To be clear, I am not fully against AI. 
-
-
-You may hate me after this.
-
-<!--
-Here is another comment.
--->
 
 ---
 layout: SectionTitle
 transition: slide-up
 level: 2
 ---
-# where we are at.
+# una breve introducción.
 
-<!--
-We have seen many developments in the last few years but I think it is good we dumb everything down to the most basic of logics. This is about:
--->
----
-layout: image-right
-transition: slide-up
-image: /assets/productivity-cycle.png
----
-# productivity
-the industry sucks
-
-AI leads to “increase in productivity”
-- translates to increase in slop
-- translates to increase in cognitive load
-
-silicon valley mentality.
-
-this already happened before with web3, cloud computing...
-
-<!--
-If you didn't create 3 tech startups, created 4 OSS projects and use Twitter you are nobody
-we become “more productive” → we can generate more “value” but we work the same and are paid the same amount for triple the cognitive load.
--->
 ---
 layout: two-cols
 transition: slide-up
 image: /assets/consumerism.gif
 level: 2
 ---       
-# consumerism
-we suck
+# consumismo
+damos asquete
 
-"culture" is shaped by trends dictated by algorithms:
-- happiness equals spending power
-- stuck on a dopamine cycle 
-- hiperacceleration of the capitalist mentality
-- unrealistic expectations of living
+la "cultura" está determinada por modas dictadas por algoritmos:
+- la felicidad se equipara a la capacidad de gastar dinero
+- ciclo de dopamina constante
+- hiperacceleración de la mentalidad capitalista
+- se crean expectativas vitales inalcanzables
 ::right::
 <div style="display: flex; justify-content: center;">
 	<img src="/assets/consumerism.gif" style="width: 60%;"/>
@@ -132,16 +92,16 @@ layout: image-right
 image: /assets/add-wood-to-the-fire.jpg
 level: 2
 ---
-# more is better
-- always waiting for the newest hardware or software upgrade
+# más es mejor
+- siempre estamos esperando por la última mejora de software o hardware
 
-- everything needs to be digitalised
+- cada vez se digitalizan más partes de nuestra vida (que igual no son necesarias!)
 
-* you should prepare for "infinite growth"
+* nos dicen que nos tenemos que preparar para un crecimiento económico infinito
 
-* this powers the silicon chip industry :
+* todo esto mantiene la industria de manufactura de chips
 
-"you gotta keep the wheel moving"
+"la rueda del capitalismo nunca se detiene"
 
 ---
 transition: slide-up
@@ -149,11 +109,11 @@ layout: image-right
 image: /assets/turtle.jpg
 level: 2
 ---
-# optimization't
+# falta de optimización
 - Jevons paradox
 - Wirth's law
 
-throw stuff to the wall until one sticks
+obsolescencia programada y esas cosas
 ::right::
 slow turtle or smth.png
 <!--
@@ -169,14 +129,13 @@ layout: two-cols
 image: /assets/outsource-intelligence.gif
 level: 2
 ---
-# you will know nothing...
-and be happy?
+# nos quieren estúpidos
 
-- outsourcing of intelligence to AI
+- cada vez delegamos mas pensamiento a la IA
 
-- giving up our abilities for creation
+- abandonamos nuestra capacidad de creación
 
-- the jobs of the future will require no thought
+- los trabajos del futuro no requeriran pensamiento alguno, necesitando pagar para tener acceso al razonamiento como otro medio de producción más
 ::right::
 <img src="/assets/outsource-intelligence.gif" style="width: 90%; image-rendering: crisp-edges;" />
 
@@ -194,24 +153,21 @@ transition: slide-up
 layout: two-cols
 level: 2
 ---
-# is this a failure of the system?
+# es esto un fallo del sistema?
 ##
-pure supply and demand:
-- if someone pays for it we will give it
-- now no humans needed!
+pura oferta y demanda:
+- si alguien paga por ello pues habrá que darselo, no?
+- ahora sin humanos!
 
-you gotta keep the fire going.
 
-even if it means destroying the planet.
-
-it’s just pure capitalism baby.
+puro capitalismo, baby.
 ::right::
 <img src="/assets/monopoly-guy.png" style="width: 100%; image-rendering: crisp-edges;" />
 
 ---
 layout: SectionTitle
 ---
-# permacomputing
+# permacomputación
 
 <div style="align-content: center; display:flex; justify-content: center;">
 	<img src="/assets/pmclogo-neau.png" style="image-rendering: crisp-edges;" />
@@ -220,22 +176,22 @@ layout: SectionTitle
 layout: default
 layoutClass: gap-16
 ---
-# what is permacomputing?
-- concept/framework
-- a utopian ideal
-- community of practice
+# qué es la permacomputación?
+- concepto / marco de trabajo
+- ideal utópico
+- comunidad de práctica
+	- en berlin, barcelona, rotterdam...
 
 <div style="border: 2px dashed var(--main-color); width: 80%;">
 
 <div style="margin-left: 20px;">
 
-<b>disclaimer:</b>
+<b>aviso a navegantes:</b>
 
-permacomputing is not a "trend" or a "label" to sell tech products with.
+la permacomputación no es un "trend" o una etiqueta para vender productos tecnológicos.
+es una práctica que questiona los fundamentos básicos de la computación y la tecnología y su uso actual.
 
-it questions the very roots of computing and how it is used nowadays.
-
-- learn more at https://permacomputing.net/
+- más en https://permacomputing.net/
 </div>
 </div>
 ---
@@ -243,24 +199,25 @@ layout: image-right
 layoutClass: gap-16
 image: /assets/baldornon-garden-dithered.png
 ---
-# permaculture
-- creating sustainable practices for agriculture that replicate existing working relationships and systems found in nature
-- avoids chemical pesticides or fertilizers in favor of other natural agricultural practices
-- follows an approach that encourages regenerable and resilient processes based on existing systems found in nature  
+# permacultura
+- la aplicación de prácticas sostenibles en la agricultura para replicar y adaptar relaciones y sistemas existentes en la naturaleza
+- evitar pesticidas o fertilizantes químicos en favor de otras soluciones naturales
+- sigue un enfoque que impulsa procesos resilientes y regenerables basándonos en los ecosistemas ya existentes
+- sigue también un modelo de producción a una escala más reducida, produciendo lo mínimo y necesario para la comunidad
 ---
 layout: image-right
 layoutClass: gap-16
 image: /assets/mushrooms-chip-dithered.png
 ---
-# permacomputing
-## asks:
-- is there a place for computers in a world where humans care for the biosphere?
-- how can we obtain resilient and regenerative computing systems?
-## suggests:
-- adopting a sustainable approach that:
-	- maximizes hardware lifespans
-	- minimizes energy use
-	- focuses on existing computing resources
+# permacomputación
+## pregunta:
+- hay un lugar para los ordenadores en un mundo en el que los humanos se preocupan por la biosfera?
+- cómo podemos obtener sistemas informáticos resilientes y regenerativos?
+## sugiere:
+- adoptar un enfoque sostenible que:
+	- maximiza la vida de los dispositivos
+	- minimiza el uso de energía
+	- se centra en recursos ya producidos
 <style>
 li {
 	margin-bottom: 10px !important;
@@ -272,6 +229,23 @@ li {
 - permacomputing encourages a more sustainable approach, maximizing hardware lifespans, minimizing energy use and focussing on the use of already available computational resources
 - needs a lot of rethinking, rebuilding and technical design work to put in practice.
 -->
+
+---
+layout: TitleCard
+transition: none
+level: 2
+---
+Excuse this non-professional talk.
+
+To be clear, I am not fully against AI. 
+
+
+You may hate me after this.
+
+<!--
+Here is another comment.
+-->
+
 ---
 layout: SectionTitle
 ---
@@ -420,21 +394,7 @@ li {
 }
 </style>
 	
----
-layout: two-cols
-layoutClass: gap-16
----
 
-# optimize
-your webpages/workloads
-
-- compress images
-- reduce javascript
-- use lighter frameworks
-- avoid unnecessary libraries
-
-This reduces the energy needed to run/download your projects.
-Makes it easier to run in lower-end hardware
 ---
 layout: two-cols
 layoutClass: gap-16
