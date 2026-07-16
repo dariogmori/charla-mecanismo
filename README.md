@@ -1,3 +1,3 @@
-# This is not the tech I signed up for! An approach to permacomputing
-## Future Frontend 2026
-A talk by Dario Gutierrez Mori
+# Usando la permacomputación para envisionar futuribles
+## Mecanismo
+Una charla de Dario Gutierrez Mori
