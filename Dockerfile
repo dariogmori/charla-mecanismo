@@ -1,3 +1,16 @@
-FROM tangramor/slidev:arm64v8
+FROM node:24 as build
 
-ADD . /slidev
+COPY . /slidev
+WORKDIR /slidev
+
+RUN npm install
+
+RUN npm run build
+
+FROM nginxinc/nginx-unprivileged:stable-alpine as production-stage
+
+COPY --from=build /slidev/dist /config/www
+
+COPY  --from=build /slidev/nginx.conf /etc/nginx/nginx.conf
+
+EXPOSE 80
